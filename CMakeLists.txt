@@ -3,4 +3,4 @@ project(RequestReceipt)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RequestReceipt main.cpp Service.cpp Service.h Client.cpp Client.h)
+add_executable(RequestReceipt main.cpp Service.cpp Service.h Client.cpp Client.h Controller.cpp Controller.h)

@@ -14,9 +14,6 @@ class Service {
 public:
     struct RequestReceipt {
         RequestReceipt(int requestId, Service* owner) : requestId(requestId), owner(owner) {}
-        ~RequestReceipt() {
-            owner->CancelRequest(requestId);
-        };
         const int requestId;
 
     private:
